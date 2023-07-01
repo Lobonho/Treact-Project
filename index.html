@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Treact</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./assets/logo.svg">
     <script src="index.js"></script>
   </head>
   <body>
@@ -47,12 +48,19 @@
             </button>
             <div class="menu">
               <div class="menu__links">
-                <a href="#" class="menu__link">About</a>
-                <a href="#" class="menu__link">Blog</a>
-                <a href="#" class="menu__link">Pricing</a>
-                <a href="#" class="menu__link">Contact Us</a>
-                <a href="#" class="menu__link">Login</a>
-                <a href="#" class="menu__link menu__link--btn">Sign Up</a>
+                <a href="#" class="menu__link" onclick="closeMenu()">About</a>
+                <a href="#" class="menu__link" onclick="closeMenu()">Blog</a>
+                <a href="#" class="menu__link" onclick="closeMenu()">Pricing</a>
+                <a href="#" class="menu__link" onclick="closeMenu()"
+                  >Contact Us</a
+                >
+                <a href="#" class="menu__link" onclick="closeMenu()">Login</a>
+                <a
+                  href="#"
+                  class="menu__link menu__link--btn"
+                  onclick="closeMenu()"
+                  >Sign Up</a
+                >
               </div>
               <button class="menu__btn" onclick="closeMenu()">
                 <svg
@@ -144,14 +152,18 @@
               </g>
             </svg>
             <div class="row features__row">
-              <h5 class="features__heading">
-                <span class="purple">FEATURES</span>
-              </h5>
-              <h2>We have Amazing <span class="purple">Service.</span></h2>
-              <p class="features__para">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
+              <div class="features__description">
+                <h5 class="features__heading">
+                  <span class="purple">FEATURES</span>
+                </h5>
+                <h2 class="features__heading--2">
+                  We have Amazing <span class="purple">Service.</span>
+                </h2>
+                <p class="features__para">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
               <div class="features__separator"></div>
               <div class="features__services">
                 <div class="features__services--container">
