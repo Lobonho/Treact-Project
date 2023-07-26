@@ -1762,7 +1762,12 @@ FOOTER
   }
 }
 
-/* SMALL PHONES, LARGE SMARTPHONES */
+/* 
+
+SMALL PHONES, LARGE SMARTPHONES
+
+*/
+
 @media (max-width: 550px) {
   .ad__title {
     font-size: 18px;
